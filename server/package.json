@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "main": "bin/index.js",
+  "scripts": {
+    "start-nodemon": "nodemon -C -w bin/index.js -w foo.txt",
+    "start": "node bin/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  }
+}

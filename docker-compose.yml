@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  server:
+    build: ./server
+    command: npm run start-nodemon
+    volumes:
+      - ./server/src:/usr/src/src/
+    ports:
+      - "3000:3000"
